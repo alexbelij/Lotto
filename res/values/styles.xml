@@ -1,0 +1,92 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="LottoTheme" parent="Theme.Sherlock.Light" />
+
+    <!-- Themes -->
+    <style name="LottoTheme.Styled">
+
+        <!-- ActionBar -->
+        <item name="actionBarStyle">@style/LottoTheme.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/LottoTheme.Styled.ActionBar</item>
+        <!-- ActionBarTab -->
+        <item name="actionBarTabStyle">@style/LottoTheme.Styled.ActionBarTab</item>
+        <item name="android:actionBarTabStyle">@style/LottoTheme.Styled.ActionBarTab</item>
+    </style>
+
+    <style name="LottoTheme.Styled.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="background">@drawable/nav_bg</item>
+        <item name="android:background">@drawable/nav_bg</item>
+    </style>
+
+    <style name="LottoTheme.Styled.ActionBarTab">
+        <!--
+        <item name="background">@drawable/selector_tab_number</item>
+        <item name="android:background">@drawable/selector_tab_number</item>
+        -->
+    </style>
+
+    <!-- Layout -->
+    <style name="LottoTheme.Styled.Layout" />
+
+    <style name="LottoTheme.Styled.Layout.LottoTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="LottoTheme.Styled.Layout.Pager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <!-- TextView -->
+    <style name="LottoTheme.Styled.TextView">
+        <item name="android:textColor">#c90d13</item>
+    </style>
+
+    <style name="LottoTheme.Styled.TextView.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="LottoTheme.Styled.TextView.LottoCounter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="LottoTheme.Styled.TextView.LottoNumber">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">00</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LottoTheme.Styled.TextView.LottoNumberLarge">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">00</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LottoTheme.Styled.TextView.LottoNumber.Dark">
+        <item name="android:textColor">#c90d13</item>
+    </style>
+
+    <style name="LottoTheme.Styled.TextView.LottoNumber.Light">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+</resources>

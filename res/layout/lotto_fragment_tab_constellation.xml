@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_constellation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/lottoTitle03"
+        style="@style/LottoTheme.Styled.Layout.LottoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title1" />
+
+    <RelativeLayout
+        style="@style/LottoTheme.Styled.Layout.Pager"
+        android:layout_below="@+id/lottoTitle03" >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/app_background" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/bottompaper" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="46dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/p3" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="5dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:text="@string/string_tab_constellation_description"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#796c6b" />
+
+        <LinearLayout
+            android:id="@+id/lottoTicket_constellation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/lottoTicket_constellation_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/LottoTheme.Styled.TextView.LottoNumber.Light"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/point" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/LottoTheme.Styled.TextView.LottoNumber.Light"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/point" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/LottoTheme.Styled.TextView.LottoNumber.Light"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/ImageView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/point" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/LottoTheme.Styled.TextView.LottoNumber.Light"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/ImageView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/point" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    style="@style/LottoTheme.Styled.TextView.LottoNumber.Light"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/ImageView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/point" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    style="@style/LottoTheme.Styled.TextView.LottoNumber.Light"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lottoTicket_constellation_special"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ImageView06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/point" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/LottoTheme.Styled.TextView.LottoNumber.Light"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/LottoTheme.Styled.TextView.Title"
+            android:text="@string/string_tab_constellation_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/LottoTheme.Styled.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/string_tab_constellation_sub_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/star_icon" />
+    </RelativeLayout>
+
+</RelativeLayout>

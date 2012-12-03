@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">LOTTO</string>
+
+    <!-- Activity -->
+    <string name="title_activity_splash">LOTTO</string>
+    <string name="title_activity_tab_main">TabMainActivity</string>
+    <string name="title_activity_number_chooser">NumberChooserActivity</string>
+    <!-- Number Choser -->
+    <string name="string_number_chooser_title">直接點選您的號碼</string>
+        <string name="string_number_chooser_warn">您已經選完七個球嘍</string>
+                <string name="string_number_chooser_warn_repeate">您已經選過這顆球嘍</string>
+                
+    <!-- TabMain Page -->
+    <string name="string_tab_number">當期獎號</string>
+    <string name="string_tab_analytics">分析</string>
+    <string name="string_tab_constellation">星座運勢</string>
+    <!-- Number -->
+    <string name="string_tab_number_title">您的號碼</string>
+    <string name="string_tab_number_buy">買</string>
+    <string name="string_tab_number_win">中</string>
+    <string name="string_tab_number_special">特別號</string>
+    <!-- Analytics -->
+    <string name="string_tab_analytics_title">您最近中獎的機率</string>
+    <!-- Constellation -->
+    <string name="string_tab_constellation_title">您最近星座運勢</string>
+    <string name="string_tab_constellation_sub_title">天秤座</string>
+    <string name="string_tab_constellation_description">優雅的天秤在燈紅酒綠中微笑轉身，顧盼神采，灑脫如同水中的魚。他們與紅酒，水晶杯，晚禮服，鋼琴曲是那麼的相得益彰，漫不經意的吸引著公眾的眼光……</string>
+
+</resources>
